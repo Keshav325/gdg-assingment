@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodeCraft Summit 2026</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Scroll Progress -->
+<div id="progress"></div>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <h2>CodeCraft</h2>
+  <button onclick="scrollToRegister()">Register</button>
+</nav>
+
+<!-- HERO (Premium Restored Version) -->
+<section class="hero">
+
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+
+  <div class="hero-content">
+    <div class="organizer-badge">
+      Organized by GDG RIT Roorkee
+    </div>
+
+    <h1>CodeCraft Summit 2026</h1>
+    <p class="gradient-text">Build. Scale. Innovate.</p>
+    <p class="hero-sub">March 15–16, 2026 | RIT Campus</p>
+
+    <button class="cta" onclick="scrollToRegister()">Join Now</button>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="stats">
+  <div>
+    <h2 class="counter" data-target="500">0</h2>
+    <p>Attendees</p>
+  </div>
+  <div>
+    <h2 class="counter" data-target="20">0</h2>
+    <p>Speakers</p>
+  </div>
+  <div>
+    <h2 class="counter" data-target="15">0</h2>
+    <p>Workshops</p>
+  </div>
+</section>
+
+<!-- Speakers (Auto Sliding Restored) -->
+<section class="section dark">
+  <h2>Featured Speakers</h2>
+
+  <div class="carousel">
+    <div class="slides">
+
+      <div class="speaker-card">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400" alt="">
+        <h3>Rahul Verma</h3>
+        <p>Full-Stack Engineer</p>
+      </div>
+
+      <div class="speaker-card">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400" alt="">
+        <h3>Ananya Sharma</h3>
+        <p>AI Researcher</p>
+      </div>
+
+      <div class="speaker-card">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400" alt="">
+        <h3>Arjun Mehta</h3>
+        <p>Cloud Architect</p>
+      </div>
+
+      <!-- Duplicate for smooth infinite loop -->
+      <div class="speaker-card">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400" alt="">
+        <h3>Rahul Verma</h3>
+        <p>Full-Stack Engineer</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Why Attend -->
+<section class="section">
+  <h2>Why Attend?</h2>
+  <div class="features">
+    <div class="feature-card">🚀 Hands-on Workshops</div>
+    <div class="feature-card">🤝 Networking</div>
+    <div class="feature-card">🧠 Industry Experts</div>
+  </div>
+</section>
+
+<!-- Timeline -->
+<section class="section dark">
+  <h2>Event Timeline</h2>
+  <div class="timeline">
+    <div class="timeline-item">Opening Keynote</div>
+    <div class="timeline-item">AI Workshop</div>
+    <div class="timeline-item">Panel Discussion</div>
+    <div class="timeline-item">Networking</div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section">
+  <h2>FAQs</h2>
+  <div class="faq-item">
+    <button class="faq-question">Is this event free?</button>
+    <div class="faq-answer">Yes, registration is completely free.</div>
+  </div>
+</section>
+
+<!-- Register -->
+<section class="section dark" id="register">
+  <h2>Ready to Join?</h2>
+  <button class="cta">Register Now</button>
+</section>
+
+<footer>
+  <p>© 2026 CodeCraft Summit</p>
+  <p class="footer-org">Organized by GDG RIT Roorkee</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
