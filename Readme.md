@@ -8,7 +8,7 @@ This project was created as part of a frontend assignment to design and develop 
 
 ## 🌐 Live Preview
 
-(Insert your deployed link here)
+https://gdg-assingment.vercel.app/
 
 ---
 
@@ -87,3 +87,4 @@ All implementation and design decisions were manually developed.
 ## 📌 Organizer
 
 Organized by **GDG RIT Roorkee**
+
